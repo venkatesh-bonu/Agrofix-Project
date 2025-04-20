@@ -69,6 +69,7 @@ Note : For admin login use "SECRET_ADMIN_CODE" as admin secret key
 cd agrofix-client
 npm install
 npm start
+```
 
 ### 🖥️ Server Setup
 
@@ -76,7 +77,7 @@ npm start
 cd server
 npm install
 node index.js
-
+```
 
 📦 Environment Variables
 Create a .env file in the server/ directory and include the following values:
