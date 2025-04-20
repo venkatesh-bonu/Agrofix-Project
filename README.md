@@ -95,6 +95,7 @@ CLOUDINARY_API_KEY=your_cloudinary_api_key
 ##  🔗 Live URL  
 🔗 Live URL: https://agrofix-frontend-nu.vercel.app/
 
+##  🔗 File Structure   
 ```
 Agrofix-Project/
 ├── agrofix-client/     # React frontend
