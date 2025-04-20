@@ -82,18 +82,14 @@ node index.js
 📦 Environment Variables
 Create a .env file in the server/ directory and include the following values:
 
-env
-Copy
-Edit
 PORT=5000
-MONGO_URI= YOUR_MONGO_URI
+MONGO_URI=YOUR_MONGO_URI
 JWT_SECRET=your_jwt_secret
-JWT_ADMIN_SECRET = JWT_ADMIN_SECRET_KEY
+JWT_ADMIN_SECRET=JWT_ADMIN_SECRET_KEY
 ADMIN_SECRET=SECRET_ADMIN_CODE
-CLOUDINARY_CLOUD_NAME = your_cloudinary_name
-CLOUDINARY_API_SECRET = your_clodinary_api_secret
-CLOUDINARY_API_KEY = your_clodinary_api_key
-Replace evn variables with you env variables
+CLOUDINARY_CLOUD_NAME=your_cloudinary_name
+CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+CLOUDINARY_API_KEY=your_cloudinary_api_key
 
 
 🔗 Live URL: https://agrofix-frontend-nu.vercel.app/
