@@ -1,0 +1,29 @@
+.products-container{
+    min-height: 100vh;
+    background-color: "white";
+    overflow: hidden;
+}
+
+.fiter-checkbox-container{
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.filter-checkbox{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.each-filter-contianer{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.products-list-container{
+    padding : 20px;
+    height: 100%;
+    width: 100%;
+}

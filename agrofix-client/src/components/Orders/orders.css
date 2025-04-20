@@ -1,0 +1,21 @@
+.order-container {
+  min-height: 100vh;
+  overflow: hidden;
+}
+.orders-details-container {
+  padding: 20px;
+}
+.order-item {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(233, 237, 240, 0.863);
+  border-radius: 2px;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+}
+.order-products-list{
+    width: 200px;
+    margin-left: 50px;
+}
