@@ -79,7 +79,7 @@ npm install
 node index.js
 ```
 
-📦 Environment Variables  
+## 📦 Environment Variables  
 Create a .env file in the server/ directory and include the following values:
 
 PORT=5000  
