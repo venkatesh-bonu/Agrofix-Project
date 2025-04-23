@@ -4,6 +4,13 @@ AgroFix is a web-based platform where buyers can explore and purchase agricultur
 
 ---
 
+## ⚠️ Important Note on Backend Delay
+
+> 🕒 The backend hosted on [Render](https://render.com) can take up to **1 minute** to spin up after inactivity.  
+> This means that **after clicking the login button**, the response may take **~60 seconds** if the backend is waking up.  
+> Please be patient! This is a limitation of the free Render tier's cold start time.
+
+
 
 ## 🔐 Login Instructions
 
