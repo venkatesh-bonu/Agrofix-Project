@@ -85,18 +85,20 @@ cd server
 npm install
 node index.js
 ```
+## 📦 Server Environment Variables
 
-## 📦 Server Environment Variables  
-Create a .env file in the server/ directory and include the following values:
+Create a `.env` file inside the `server/` directory and add the following variables:
 
-PORT=5000  
-MONGO_URI=YOUR_MONGO_URI  
-JWT_SECRET=your_jwt_secret  
-JWT_ADMIN_SECRET=JWT_ADMIN_SECRET_KEY  
-ADMIN_SECRET=SECRET_ADMIN_CODE   
-CLOUDINARY_CLOUD_NAME=your_cloudinary_name  
-CLOUDINARY_API_SECRET=your_cloudinary_api_secret  
-CLOUDINARY_API_KEY=your_cloudinary_api_key  
+```env
+PORT=5000
+MONGO_URI=your_mongo_db_connection_string
+JWT_SECRET=your_jwt_secret_key
+JWT_ADMIN_SECRET=your_jwt_admin_secret_key
+ADMIN_SECRET=your_custom_admin_code
+CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
+CLOUDINARY_API_KEY=your_cloudinary_api_key
+CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+```
 
 ## 🌐 Client Environment Variable
 
