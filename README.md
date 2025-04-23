@@ -86,7 +86,7 @@ npm install
 node index.js
 ```
 
-## 📦 Environment Variables  
+## 📦 Server Environment Variables  
 Create a .env file in the server/ directory and include the following values:
 
 PORT=5000  
@@ -97,6 +97,20 @@ ADMIN_SECRET=SECRET_ADMIN_CODE
 CLOUDINARY_CLOUD_NAME=your_cloudinary_name  
 CLOUDINARY_API_SECRET=your_cloudinary_api_secret  
 CLOUDINARY_API_KEY=your_cloudinary_api_key  
+
+## 🌐 Client Environment Variable
+
+The frontend relies on the following environment variable:
+
+| Variable Name         | Description                        | Example                        |
+|-----------------------|------------------------------------|--------------------------------|
+| `REACT_APP_API_URL`   | URL of the backend API endpoint    | `https://your-backend.com` |
+
+Make sure to create a `.env` file in the `client/` directory with the following content:
+
+```env
+REACT_APP_API_URL=https://your-backend.com
+```
 
 
 ##  🔗 Live URL  
